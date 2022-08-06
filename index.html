@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Practice01_4.css">
+    <script src="Practice01_4.js" defer></script>
+    <title>Practice01_4</title>
+</head>
+<body>
+    <div>
+        <label class="open" for="popup"></label>
+    </div>
+    <input type="checkbox" id="popup">
+    <div class="overlay">
+        <div class="window" id="window">
+            <label class="close" for="popup">×</label>
+            <p id="text"></p>
+        </div>
+    </div>
+
+    <input type="button" value="START" id="btn1"> <br>
+    <div id="box">
+        <div style="float:left;width:150px;">
+            <div style="padding: 10px; margin-bottom: 10px; border: 5px double #333333;" id="box1" >
+                1
+            </div>
+        </div>
+        <div style="float:left;width:150px;">
+            <div style="padding: 10px; margin-bottom: 10px; border: 5px double #333333;" id="box2">
+                2
+            </div>
+        </div>
+        <div style="float:left;width:150px;">
+            <div style="padding: 10px; margin-bottom: 10px; border: 5px double #333333;" id="box3">
+                3
+            </div>
+        </div>
+    </div>
+    <div style="clear:both">
+        <input type="button" value="STOP" id="btn2">
+        <input type="button" value="STOP" id="btn3">
+        <input type="button" value="STOP" id="btn4">
+    </div>
+    
+</body>
+</html>
